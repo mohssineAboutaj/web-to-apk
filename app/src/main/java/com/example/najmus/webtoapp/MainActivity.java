@@ -23,7 +23,7 @@ public class MainActivity extends Activity {
         mywebView =(WebView)findViewById ( R.id.webView );
         WebSettings webSettings = mywebView.getSettings ();
         webSettings.setJavaScriptEnabled ( true );
-        mywebView.loadUrl ( "https://zerda.netlify.com" );
+        mywebView.loadUrl ( "https://xeropal.tk" );
         mywebView.setWebViewClient ( new WebViewClient () );//prevents our url to open in another browser
 
     }
